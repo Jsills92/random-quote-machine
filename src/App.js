@@ -14,9 +14,11 @@ function App() {
         >
           Random Bible Verse Generator
         </a>
-        <p>
-          <QuoteBox />
-        </p>
+        <div>
+        <QuoteBox />
+        </div>
+         
+       
     
        
       </header>
