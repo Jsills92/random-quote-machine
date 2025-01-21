@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: #a1884a;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -25,7 +25,7 @@
   .buttons {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 500px;
   }
   
   button, a {
@@ -36,23 +36,23 @@
   }
   
   #new-quote {
-    background-color: #007bff;
+    background-color: #ffaa00;
     color: white;
     transition: background-color 0.3s ease;
   }
   
   #new-quote:hover {
-    background-color: #0056b3;
+    background-color: #000000;
   }
   
   #tweet-quote {
-    background-color: #1DA1F2;
+    background-color: #05f6b1;
     color: white;
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
   
   #tweet-quote:hover {
-    background-color: #0d95e8;
+    background-color: #000000;
   }
   
