@@ -3,36 +3,43 @@
 #quote-box {
     max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: #a1884a;
-    border-radius: 8px;
+    border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   #text {
     font-size: 1.5rem;
-    color: #333;
+    color: #f7a101;
     margin-bottom: 10px;
   }
   
   #author {
     font-size: 1rem;
-    color: #555;
+    color: #f7a101;
     margin-bottom: 20px;
   }
   
   .buttons {
     display: flex;
     justify-content: space-between;
-    gap: 500px;
+    gap: 50px;
   }
   
-  button, a {
+  button {
+
+    background-color: #a1884a;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  a {
+    padding: 10px;
+    border-radius: 5px;
   }
   
   #new-quote {
@@ -46,7 +53,7 @@
   }
   
   #tweet-quote {
-    background-color: #05f6b1;
+    background-color: #1D9BF0;
     color: white;
     text-decoration: none;
     transition: background-color 0.3s ease;
